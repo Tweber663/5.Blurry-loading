@@ -1,3 +1,32 @@
+body {
+  margin: 0;
+  font-family: "Ubuntu", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
+.photoBox {
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  overflow-y: hidden;
+  filter: blur(30px);
+}
+
+.photoBox img {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  border: none;
+  object-fit: cover;
+}
+
+.loading-text {
+  position: absolute;
+  color: white;
+  font-size: 50px;
+}
 
 /*# sourceMappingURL=style.css.map */
